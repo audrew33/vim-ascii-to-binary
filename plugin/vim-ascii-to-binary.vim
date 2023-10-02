@@ -2,11 +2,11 @@ function! A2B(input)
   if a:input =~# '^\d\{1,3}$'
     " Input is a decimal value
     let decimal_value = str2nr(a:input)
-    let binary = printf('%012b', decimal_value)
-  elseif strlen(a:input) == 1
-    " Input is a single character
+    let binary = printf('%b', decimal_value)
+  elseif a:input =~# '^[a-zA-Z]$'
+    " Input is a single letter
     let ascii_code = char2nr(a:input)
-    let binary = printf('%08s', str2nr(ascii_code, 10, 2))
+    let binary = printf('%08b', ascii_code)
   else
     return "Invalid input"
   endif
