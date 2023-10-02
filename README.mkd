@@ -1,0 +1,41 @@
+## ascii to binary converter
+
+A Vim plugin which converts ascii letters or numbers to 8 binary representation. E.G typing letter 'Y' will convert to 01011001 . 
+
+Features:
+
+* Provides quick calculation so you can work on your C/C++ project faster and more efficient
+
+Compatibility:
+
+Compatible back to Vim 7.4, 7.3 and later.
+
+### Installation
+
+First, install using your favourite package manager, or use Vim's built-in package support.
+
+Neovim:
+
+Include this line to your init.vim and run PlugInstall :
+```
+Plug `audrew33/vim-ascii-to-binary.git`
+```
+
+Vim:
+
+Include this line to your .vimrc and run PlugInstall :
+
+```
+Plugin `audrew33/vim-ascii-to-binary.git`
+```
+
+### Usage
+
+To use this plugin, type `:a2b` in normal mode.
+
+### Patreon and Youtube channels
+
+If this plugin has helped you, or you'd like to learn more about Vim, C or C++, typescript or electrical engineering, checkout my channel link below:
+
+www.patreon.com/audrew
+

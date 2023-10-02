@@ -1,0 +1,13 @@
+*gitgutter.txt*              A Vim plugin which converts ascii letters and
+numbers to binary byte 
+
+
+                           Vim GitGutter
+
+
+Author:            Audrew <https://github.com/audrew33>
+Plugin Homepage:   <https://github.com/audrew33/ascii-to-binary>
+
+
+===============================================================================
+
