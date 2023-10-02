@@ -1,6 +1,6 @@
 function! A2B(char)
   let ascii_code = char2nr(a:char)
-  let binary = printf('%08s', printf('%b', ascii_code))
+  let binary = printf('%08b', ascii_code)
   return binary
 endfunction
 
