@@ -31,7 +31,7 @@ Plugin `audrew33/vim-ascii-to-binary.git`
 
 ### Usage
 
-To use this plugin, type `:a2b` in normal mode.
+To use this plugin, type `:A2B` + argument that you want to convert to binary in normal mode.
 
 ### Patreon and Youtube channels
 
