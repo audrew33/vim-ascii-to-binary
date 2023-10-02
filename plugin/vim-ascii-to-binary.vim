@@ -2,7 +2,7 @@ function! A2B(input)
   if a:input =~# '^\d\{1,3}$'
     " Input is a decimal value
     let decimal_value = str2nr(a:input)
-    let binary = printf('%b', decimal_value)
+    let binary = printf('%08b', decimal_value)
   elseif a:input =~# '^[a-zA-Z]$'
     " Input is a single letter
     let ascii_code = char2nr(a:input)
